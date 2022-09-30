@@ -142,6 +142,11 @@ body {
   font-style: normal;
 }
 
+div {
+    max-height: auto;
+    max-width: 75%;
+}
+
 .heading,
 h2 {
   font-family: utopia-std-display, serif;
@@ -201,6 +206,8 @@ div.heading a {
 div.heading a:hover {
   text-decoration: underline;
 }
+
+
 
 .index-header {
   margin: 10px 0;
