@@ -142,7 +142,7 @@ body {
   font-style: normal;
 }
 
-div {
+div i {
     max-height: auto;
     max-width: 75%;
 }
