@@ -142,11 +142,6 @@ body {
   font-style: normal;
 }
 
-div i {
-    max-height: auto;
-    max-width: 75%;
-}
-
 .heading,
 h2 {
   font-family: utopia-std-display, serif;
@@ -159,7 +154,7 @@ h2 {
 
 img {
     max-height: 75%;
-    max-width: auto;
+    max-width: 75%;
 }
 
 .sub-heading {
