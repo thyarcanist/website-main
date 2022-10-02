@@ -101,6 +101,10 @@ q:after {
   content: none;
 }
 
+.terminal {
+    @import 'terminal.scss';
+}
+
 /* remember to define focus styles! */
 :focus {
   outline: 0;
