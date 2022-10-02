@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.3",
+    "sass": "^1.55.0"
+  },
+  "name": "terminus",
+  "description": "personal website / lets go!",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidespy/website-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voidespy/website-main/issues"
+  },
+  "homepage": "https://github.com/voidespy/website-main#readme"
+}
