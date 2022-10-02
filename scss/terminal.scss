@@ -7582,6 +7582,9 @@ body {
     background-size: cover, 100% 3px;
     font-family: "VT323", monospace, sans-serif;
     color: #3f3;
+    padding: 20px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h2.proxy {
@@ -7630,4 +7633,42 @@ h2.proxy::before {
   font-size: 18px;
   letter-spacing: 0.7px;
   white-space: pre-wrap;
+}
+
+i.div {
+    text-indent: 1in;
+  }
+p.info {
+    text-indent: 1.75in;
+}
+
+p.noteTitle {
+    background-color: beige;
+    border: rgb(98, 81, 59);
+    border-width: 3px;
+    border-style: inset;
+    color: black;
+    padding: 10px;
+}
+
+p.note {
+    background-color: beige;
+    color: black;
+    padding: 10px;
+    border: rgb(98, 81, 59);
+    border-width: 3px;
+    border-style: outset;
+    
+
+}
+
+  img {
+    max-width: 75%;
+    max-height: 75%; 
+    align-content: center;
+    }
+footer {
+    font-size: 12px;
+    margin: 20px 0;
+    padding: 10px;
 }
