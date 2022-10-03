@@ -3538,7 +3538,7 @@ body {
     background-position: center center;
     background-size: cover, 100% 3px;
     font-family: "VT323", monospace, sans-serif;
-    color: rgba(225, 6, 6);
+    color: rgb(225, 6, 6);
     padding: 20px;
     font-weight: 400;
     font-style: normal;
@@ -3555,7 +3555,7 @@ h2.proxy {
   background-size: cover, 100% 3px;
   font-size: calc(10px + 2vw);
   font-family: "VT323", monospace, sans-serif;
-  color: rgba(225, 6, 6);
+  color: rgb(230, 20, 20);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -3566,12 +3566,13 @@ h2.proxy::after {
   display: inline-block;
   padding-right: 3px;
   padding-right: calc(3px + 0.1vw);
-  border-right: 10px solid rgba(225, 6, 6);
-  border-right: calc(1.1vw + 4px) solid rgba(225, 6, 6);
-  text-shadow: 0 0 5px rgba(225, 6, 6);
+  border-right: 10px solid rgba(202, 12, 12, 0.75);
+  border-right: calc(1.1vw + 4px) solid rgba(202, 12, 12, 0.75);
+  text-shadow: 0 0 5px rgba(202, 12, 12, 0.75);
   white-space: nowrap;
   -webkit-animation: typed 130.36s linear 1s infinite, beam-blink 1s infinite;
           animation: typed 130.36s linear 1s infinite, beam-blink 1s infinite;
+
 }
 @media (max-width: 575px) {
   body::after {
@@ -3593,43 +3594,132 @@ h2.proxy::before {
 }
 
 i.div {
-    text-indent: 1in;
-  }
+  text-indent: 1in; }
+
 p.info {
   text-align: center;
-  word-wrap:normal;
+  word-wrap:break-word;
   padding: 10px;
 }
 
 p.noteTitle {
-    background-color: beige;
-    border: rgb(98, 81, 59);
-    border-width: 3px;
-    border-style: inset;
-    color: black;
-    padding: 10px;
-}
+  background-color: beige;
+  border: #62513b;
+  border-width: 3px;
+  border-style: inset;
+  color: black;
+  padding: 10px; }
 
 p.note {
-    background-color: beige;
-    color: black;
-    padding: 10px;
-    border: rgb(98, 81, 59);
-    border-width: 3px;
-    border-style: outset;
-    
+  background-color: beige;
+  color: black;
+  padding: 10px;
+  border: #62513b;
+  border-width: 3px;
+  border-style: outset;
+  
+ }
 
+img {
+  max-width: 75%;
+  max-height: 75%;
+  height:auto;
+  align-content: center; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
-  img {
-    max-width: 75%;
-    max-height: 75%; 
-    align-content: center;
-    }
-
 footer {
-    font-size: 12px;
-    margin: 20px 0;
-    padding: 10px;
-    top: 5rem;
+  font-size: 12px;
+  margin: 20px 0;
+  padding: 10px; 
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.containers {
+  display: none;
+}
+
+.Back, .Forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+.Forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.Back:hover, .Forward:hover {
+    background-color:#3f3;
+}
+
+.Informant {
+    color: black;
+    background-color: beige;;
+    font-size: 16px;
+    padding: 10 px 14 px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.messageInfo {
+    color: #f2f2f3;
+    font-size: 14px;
+    padding: 10px 14px;
+    position: absolute;
+    top: 0;
+}
+
+.dots {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 3px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+    background-color: red;
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+    
 }
