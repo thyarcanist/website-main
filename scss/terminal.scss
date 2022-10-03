@@ -7639,7 +7639,11 @@ i.div {
     text-indent: 1in;
   }
 p.info {
-    text-indent: 1.75in;
+  text-align: center;
+  word-wrap:normal;
+  padding: 10px;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 p.noteTitle {

@@ -5744,7 +5744,12 @@ i.div {
   text-indent: 1in; }
 
 p.info {
-  text-indent: 1.75in; }
+  text-align: center;
+  word-wrap:break-word;
+  padding: 10px;
+  margin-left: 5em;
+  margin-right: 5em;
+}
 
 p.noteTitle {
   background-color: beige;
@@ -5765,7 +5770,13 @@ p.note {
 img {
   max-width: 75%;
   max-height: 75%;
-  align-content: center; }
+  height:auto;
+  align-content: center; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 
 footer {
   font-size: 12px;
