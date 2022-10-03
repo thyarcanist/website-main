@@ -25,3 +25,6 @@ function SlideShow(n) {
     slides[slidePosition-1].getElementsByClassName.display = block;
     circles[slidePosition-1].className += " enable";
 }
+
+var slidePosition = 0;
+SlideShow();

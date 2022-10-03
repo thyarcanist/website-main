@@ -5773,8 +5773,9 @@ footer {
   padding: 10px; 
 }
 
+* {box-sizing:border-box}
+
 .slideshow-container {
-  box-sizing: border-box;
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -5802,7 +5803,7 @@ footer {
     background-color:#3f3;
 }
 
-.Info {
+.Informant {
     color: black;
     background-color: beige;;
     font-size: 16px;
