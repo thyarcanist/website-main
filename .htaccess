@@ -1,5 +1,5 @@
-#remove html file extension https://datorienanderson.com/page.html
-# to https://datorienanderson.com
+#remove html file extension *.datorienanderson.com/page.html
+# to *.datorienanderson.com
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
