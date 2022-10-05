@@ -2876,6 +2876,13 @@ footer {
   -mox-user-selec: none;
   -khtml-user-select: none; }
 
+html {
+  background-color: #000;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.125), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #000, #000 2px, #111 3px);
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover, 100% 3px; }
+
 .en-note {
   color: red;
   padding: 3px;
