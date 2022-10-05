@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\games",
+    "\\css",
     "\\portfolio",
+    "\\portfolio\\c",
+    "\\scss",
     "\\writings",
-    "\\writings\\downloads",
     "\\writings\\non-fiction",
     "\\writings\\non-fiction\\2022",
-    "\\writings\\non-fiction\\2022\\09",
     "\\writings\\non-fiction\\2022\\10",
-    "\\writings\\poetry"
+    "\\writings\\non-fiction\\2022\\10\\02"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\js\\hl.js",
   "PreviewInSolutionExplorer": false
 }
