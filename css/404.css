@@ -2647,6 +2647,13 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
+.error {
+  color: #e10606;
+  padding: 4px; }
+
+h1, a.h1 {
+  color: #e10606; }
+
 html, body, h2.proxy {
   height: 100%; }
 
@@ -2740,6 +2747,43 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+.do {
+  margin-left: 16rem; }
+
+.empty {
+  padding: 2rem; }
+
+.chase {
+  padding: 16rem; }
+
+.you {
+  margin-left: 30rem;
+  top: 3px; }
+
+.taste {
+  margin-left: 70rem; }
+
+.u {
+  font-size: smaller;
+  text-decoration: none;
+  color: darkred; }
+
+.uo {
+  font-size: smaller;
+  text-decoration: none;
+  color: red; }
+
+.click {
+  text-decoration: none;
+  color: red; }
+
+.thump {
+  background-color: black; }
+
+.now {
+  margin: 30rem;
+  bottom: 6px; }
 
 footer {
   font-size: 12px;
