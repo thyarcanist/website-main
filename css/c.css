@@ -38,7 +38,8 @@ html {
   background-size: cover, 100% 3px; }
 
 .w {
-  color: white; }
+  color: white;
+  font-size: 13px; }
 
 body {
   background-color: #000;
@@ -114,6 +115,10 @@ p.noteTitle {
   color: black;
   padding: 10px; }
 
+.w {
+  color: white;
+  font-size: 13px; }
+
 p.note {
   background-color: none;
   color: ghostwhite;
@@ -129,7 +134,8 @@ p.note {
 
 .rev-sp {
   direction: rtl;
-  color: white; }
+  color: white;
+  font-size: 13px; }
 
 img {
   max-width: 75%;
@@ -141,20 +147,24 @@ img {
   margin-right: auto; }
 
 .do {
-  margin-left: 16rem; }
+  margin-left: 16rem;
+  font-size: 13px; }
 
 .empty {
-  padding: 2rem; }
+  padding: 2rem;
+  font-size: 13px; }
 
 .chase {
   padding: 16rem; }
 
 .you {
   margin-left: 30rem;
-  top: 3px; }
+  top: 3px;
+  font-size: 13px; }
 
 .taste {
-  margin-left: 70rem; }
+  margin-left: 70rem;
+  font-size: 13px; }
 
 .u {
   font-size: smaller;
@@ -170,12 +180,10 @@ img {
   text-decoration: none;
   color: red; }
 
-.thump {
-  background-color: black; }
-
 .now {
   margin: 30rem;
-  bottom: 6px; }
+  bottom: 3px;
+  padding: -10px; }
 
 footer {
   font-size: 12px;

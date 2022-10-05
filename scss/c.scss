@@ -53,6 +53,7 @@ html {
 
 .w{
     color: white;
+    font-size: 13px;
 }
 
 body {
@@ -134,6 +135,11 @@ p.noteTitle {
   color: black;
   padding: 10px; }
 
+.w {
+    color: white;
+    font-size: 13px;
+}
+
 p.note {
   background-color: none;
   color: ghostwhite;
@@ -153,6 +159,7 @@ p.note {
 .rev-sp {
     direction: rtl;
     color: white;
+    font-size: 13px;
 }
 
 img {
@@ -168,10 +175,12 @@ img {
 
 .do {
     margin-left: 16rem;
+    font-size: 13px;
 }
 
 .empty {
     padding: 2rem;
+    font-size: 13px;
 }
 
 .chase {
@@ -181,10 +190,12 @@ img {
 .you {
     margin-left: 30rem;
     top: 3px;
+    font-size: 13px;
 }
 
 .taste {
     margin-left: 70rem;
+    font-size: 13px;
 }
 
 .u {
@@ -203,13 +214,13 @@ img {
     color: red;
 }
 .thump{
-    background-color:black;
     
 }
 
 .now {
     margin: 30rem;
-    bottom:6px;
+    bottom: 3px;
+    padding: -10px;
 }
 
 footer {
