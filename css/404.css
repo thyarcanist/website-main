@@ -2764,6 +2764,10 @@ img {
 .taste {
   margin-left: 70rem; }
 
+.w {
+  font-size: 12px;
+  color: red; }
+
 .u {
   font-size: smaller;
   text-decoration: none;
@@ -2776,7 +2780,8 @@ img {
 
 .click {
   text-decoration: none;
-  color: red; }
+  color: red;
+  font-size: 12px; }
 
 .thump {
   background-color: black; }
@@ -2835,6 +2840,11 @@ footer {
   padding: 10px 14px;
   position: absolute;
   top: 0; }
+
+.m {
+  margin-bottom: 12px;
+  color: red;
+  font: 11px; }
 
 .dots {
   cursor: pointer;
