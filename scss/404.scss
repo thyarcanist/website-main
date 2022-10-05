@@ -3551,7 +3551,11 @@ body {
     padding: 20px;
     font-weight: 400;
     font-style: normal;
+    
+
 }
+
+
 
 h2.proxy {
   display: flex;
@@ -3641,15 +3645,15 @@ img {
 }
 
 .do {
-    margin-left: 16rem;
+    margin-left: 16em;
 }
 
 .empty {
-    padding: 2rem;
+    padding: 2em;
 }
 
 .chase {
-    padding: 16rem;
+    padding: 16em;
 }
 
 .you {
@@ -3657,8 +3661,24 @@ img {
     top: 3px;
 }
 
+.contain {
+    height: 3in;
+    width: 5in;
+}
+
 .taste {
-    margin-left: 70rem;
+    box-sizing: border-box;
+    width: 20em;
+    height: 4em;
+    font-size: 2em;
+    margin-left: calc(25% + 18em);
+    position: relative;
+}
+
+.t {
+    top: 0;
+    right: 0;
+    position: fixed;
 }
 
 .w {
@@ -3754,7 +3774,7 @@ footer {
 .m {
     margin-bottom: 12px;
     color: red;
-    font: 11px;
+    font-size: 11px;
 }
 
 .dots {
@@ -3807,6 +3827,12 @@ html {
     background-repeat: repeat-y;
     background-position: center center;
     background-size: cover, 100% 3px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 .en-note {
@@ -3837,18 +3863,17 @@ html {
     top: 2rem;
 }
 .x{
-    font-size: 12;
+
 }
 .n {
-    font-size: 12;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    margin-left: 40rem;
+    margin-left: 20rem;
     animation: glitch1 2.5s infinite;
 }
 
 .nn {
-    margin-right: 55rem;
+    margin-right: 30rem;
     top: 10rem;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
