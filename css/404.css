@@ -2866,3 +2866,12 @@ footer {
     opacity: .5; }
   to {
     opacity: 2; } }
+
+.ds {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -ms-user-select: none;
+  -mox-user-selec: none;
+  -khtml-user-select: none; }
