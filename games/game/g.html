@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <title>Echo</title>
+        <link type="text/css" rel="stylesheet" media="all" href="../../css/g.css" />
+
+    </head>
+    <style>
+        canvas {
+            border: 1px solid #d3d3d3;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body onload="startGame()">
+
+    <iframe class="web-gl" src= "..."
+            scrolling="no"
+            allowfullscreen="true"
+            title="INSERT-GAME";
+    </iframe>
+    <script>
+
+function startGame() {
+    myGameArea.start();
+}
+
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 800;
+        this.canvas.height = 370;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+    }
+}
+
+    </script>
+
+    <p>CLI: ___________________________________________________________________</p>
+
+    <div>
+            <small>What begets the night? <br /> The Gargoyle of Baxter Avenue? <br />The Legend of Pan? <br /><i>Make damn sure, the caverns cultists are there nevermore.</i></small>
+    </div>
+
+</body>
+</html>

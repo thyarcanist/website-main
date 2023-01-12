@@ -1,15 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\js",
-    "\\portfolio",
     "\\portfolio\\c",
-    "\\scss",
     "\\writings",
-    "\\writings\\non-fiction",
+    "\\writings\\edu",
     "\\writings\\non-fiction\\2022",
     "\\writings\\non-fiction\\2022\\10",
     "\\writings\\non-fiction\\2022\\10\\02"
   ],
+  "SelectedNode": "\\writings\\edu\\index.html",
   "PreviewInSolutionExplorer": false
 }

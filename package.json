@@ -7,7 +7,7 @@
     "sass": "^1.55.0"
   },
   "name": "terminus",
-  "description": "personal website / lets go!",
+  "description": "company website",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voidespy/website-main.git"
+    "url": "git+https://github.com/voidespy/terminusPage.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/voidespy/website-main/issues"
+    "url": "https://github.com/voidespy/terminusPage/issues"
   },
-  "homepage": "https://github.com/voidespy/website-main#readme",
+  "homepage": "https://github.com/voidespy/terminusPage#readme",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.19.3",
