@@ -4,7 +4,7 @@
     "@babel/polyfill": "^7.12.1",
     "aws-amplify": "^4.3.38",
     "json5": "^2.2.3",
-    "node-sass": "^7.0.3",
+    "node-sass": "^9.0.0",
     "sass": "^1.55.0"
   },
   "name": "terminus",
