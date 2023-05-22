@@ -28,11 +28,22 @@ function applyTheme(theme) {
 }
 
 function saveThemePreference(theme) {
-    localStorage.setItem('theme', theme);
+    document.cookie = `theme=${theme}; path=/`; // Save the theme preference as a cookie
+}
+
+function getThemePreference() {
+    const cookies = document.cookie.split(';');
+    for (let cookie of cookies) {
+        const [name, value] = cookie.trim().split('=');
+        if (name === 'theme') {
+            return value;
+        }
+    }
+    return null;
 }
 
 function loadThemePreference() {
-    const theme = localStorage.getItem('theme');
+    const theme = getThemePreference();
     if (theme) {
         applyTheme(theme);
     }
