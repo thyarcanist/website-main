@@ -1,8 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     const textElement = document.getElementById('monochrome');
     const text = textElement.textContent;
-    const asciiBarElement = document.getElementById('asciiBar');
-    const asciiArtElement = document.getElementById('asciiArt');
+    textElement.textContent = '';
 
     let index = 0;
     let typingAnimation = null;
@@ -36,24 +35,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     function showAsciiBar() {
         const asciiBarElement = document.getElementById('asciiBar');
-        const stylesheet = document.getElementById('stylesheet');
-        if (asciiBarElement && stylesheet) {
-            if (stylesheet.href.endsWith('defb.css')) {
-                asciiBarElement.style.display = 'block';
-            } else {
-                asciiBarElement.style.display = 'none';
-            }
+        if (asciiBarElement) {
+            asciiBarElement.textContent = '||||██████████████████████████████████████████|';
         }
     }
 
-    // Call the function to hide the ASCII bar on page load
-    showAsciiBar();
-
-
-
-
-
     function showAsciiArt() {
+        const asciiArtElement = document.getElementById('asciiArt');
         if (asciiArtElement && !asciiArtDisplayed) {
             asciiArtElement.textContent = `
 ____________________________________________________
@@ -69,19 +57,26 @@ ____________________________________________________
 
       `;
             asciiArtDisplayed = true;
+        } else if (!asciiArtElement && asciiArtDisplayed) {
+            textElement.textContent = ''; // Clear the text if the ASCII art cannot be displayed
         }
     }
 
-    const themeButton = document.getElementById('themeButton');
-    themeButton.addEventListener('click', () => {
+    function applyTheme(theme) {
         const stylesheet = document.getElementById('stylesheet');
-        if (stylesheet.href.endsWith('defb.css')) {
-            stopTypingAnimation();
+        const currentLocation = window.location.href;
+        const basePath = currentLocation.substring(0, currentLocation.lastIndexOf('/') + 1);
+
+        if (theme === 'defb') {
+            stylesheet.href = basePath + 'css/defb.css';
             startTypingAnimation();
-            showAsciiBar();
         } else {
+            stylesheet.href = basePath + 'css/default.css';
             stopTypingAnimation();
-            showAsciiBar();
+            const asciiBarElement = document.getElementById('asciiBar');
+            if (asciiBarElement) {
+                asciiBarElement.textContent = '';
+            }
             const asciiArtElement = document.getElementById('asciiArt');
             if (asciiArtElement) {
                 asciiArtElement.textContent = '';
@@ -89,9 +84,31 @@ ____________________________________________________
             asciiArtDisplayed = false;
             textElement.textContent = '';
         }
+    }
+
+
+    function saveThemePreference(theme) {
+        localStorage.setItem('theme', theme);
+    }
+
+    function loadThemePreference() {
+        const theme = localStorage.getItem('theme');
+        if (theme) {
+            applyTheme(theme);
+        }
+    }
+
+    const themeButton = document.getElementById('themeButton');
+    themeButton.addEventListener('click', () => {
+        const stylesheet = document.getElementById('stylesheet');
+        if (stylesheet.href.endsWith('defb.css')) {
+            applyTheme('default');
+            saveThemePreference('default');
+        } else {
+            applyTheme('defb');
+            saveThemePreference('defb');
+        }
     });
 
-
-    // Start the typing animation initially
-    startTypingAnimation();
+    loadThemePreference();
 });
