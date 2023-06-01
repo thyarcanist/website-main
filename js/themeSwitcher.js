@@ -42,7 +42,7 @@
             }
         }
     } else {
-        stylesheet.href = `${relativePath}css/default.css`; // Construct the relative path to default.css
+        stylesheet.href = `${relativePath}css/defb.css`; // Construct the relative path to default.css
 
         if (asciiBarElement) {
             asciiBarElement.style.display = 'block'; // Show the ASCII bar
