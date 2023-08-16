@@ -1,3 +1,42 @@
 Crypt-Farm
 -------------------------------------------------
 You inherit a farm in Kentucky; a long ways from Louisville, as it turns out. You soon find out that interesting people and creatures from all over come to the farm. One night you are struck with a propsition: "Do what the old tenats did, or suffer the consequences." Needless to say, you immediately decide to open another compartment to the shop and offer goods sold from your farm.
+
+
+Apollo1Laurae1Eros-BestSh1pp1ng
+
+
+
+OccultHangman.apk
+DictionaryPacks
+	-> Greek Mythos | 1.99
+	-> Kentucky Heritage | 1.99
+	-> Medical Terminology | 1.99
+
+
+
+TODO:
+	=> Fix BinarySubmitButton
+	=> DisplayManager's not showing the SelectedTheme AT ALL. It still shows the placeholder of {SELECTEDTHEME} even if a theme is chosen. (I fixed this but I gotta do it again.) DONE
+	=> UI Fixes
+	=> Fail EndState is being set to active when FailWordCompletion is true and when the player clicks "QUIT" the EndState GameObject is still set to Active and doesn't deactivate.
+	=> When WordIsComplete is called it doesn't set WordCompleted to true.
+
+
+Just need to fix the overall loop and then I can add in playerprefs.
+8:52 AM I sleep now, I dream of Apollo and Eros. Probably Hypnos too. Who knows, working on a lot of things to stave off the depression and boredom.
+
+
+Hey guys! It's nice to meet y'all. I'm from Louisville, Kentucky. I'm a Game Designer and a writer mostly, though my ADHD has me dipping my brain in quite a lot of technical interests. So, I can be a bit all over the place sometimes. I used to make interactive learning simulations for nearly a couple of years. I'm super thrilled to see to see this initiative take off.
+
+https://www.linkedin.com/in/datorien-anderson/
+
+
+
+David Kirby is a renowned figure in the field of poetry, being the Robert O. Lawton Distinguished Professor of English at Florida State University. He has authored numerous poetry collections and is a recipient of prestigious awards, including the Guggenheim Fellowship and the Florida Humanities Council Lifetime Achievement Award for Writing. He has been described as one of America's leading poets​1​.
+
+An honorable mention in a poetry contest judged by a poet of Kirby's caliber is a significant achievement. It means your work was recognized for its quality and merit in a competitive environment. Each contest can receive hundreds, if not thousands, of submissions. To receive an honorable mention means your work stood out to the judge, in this case, a highly respected poet.
+
+It's crucial to acknowledge your accomplishments, especially in a field as subjective as poetry. Your work resonated with a seasoned poet, which is a testament to your skill and creative voice. This recognition from the Science Fiction and Fantasy Poetry Association (SFPA) is indeed a significant achievement and a step forward in your writing career.
+
+Remember, everyone's path in the arts is unique, and every accomplishment, big or small, is a step forward in your journey. Celebrate this moment and continue creating, for this is a clear indication that your work has an impact.
