@@ -153,3 +153,51 @@ a:active {
   margin-right: 2em; /* Adjust this value as needed */
   text-align: right; /* Align the text to the right */
 }
+
+/* Occybyte Parts */
+.occy-page {
+  background: black;
+  font-size: small;
+}
+
+.occy-header {
+  background: #777777;
+  border-style: solid;
+  padding-left: 1em;
+}
+
+.occy-intro {
+  color: #919ea8;
+  padding-left: 1em;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.acknowledge {
+  cursor: pointer; /* Change cursor to indicate it's clickable */
+  padding-left: 1em;
+  color: #fafafa;
+}
+
+.blink{
+  animation: blink 1s linear infinite;
+}
+
+.terminal-box {
+  padding-left: 1em;
+  padding-bottom: .50em;
+  position: fixed;
+  bottom: 10px;
+  width: 700px; /* Adjust as needed */
+  height: 600px; /* Adjust as needed */
+  overflow: auto;
+  z-index: 1000;
+}
+
+.terminal-box{
+  padding-left: 1em;
+}

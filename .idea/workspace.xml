@@ -9,10 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
+    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Forgot to edit the Footer">
+      <change afterPath="$PROJECT_DIR$/o/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o/occybyte.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,9 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ZyIynozCjnB0wyQU7d3q0j4eKI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,6 +55,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -64,6 +73,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="T:\Github\website-main\o" />
       <recent name="T:\Github\website-main\writings\downloads" />
     </key>
   </component>
@@ -75,7 +85,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703388148981</updated>
-      <workItem from="1703388151394" duration="10476000" />
+      <workItem from="1703388151394" duration="10535000" />
+      <workItem from="1703449803281" duration="2572000" />
     </task>
     <task id="LOCAL-00001" summary="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
       <option name="closed" value="true" />
@@ -101,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703410896002</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Forgot to edit the Footer">
+      <option name="closed" value="true" />
+      <created>1703410951912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703410951912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png" />
+    <MESSAGE value="Forgot to edit the Footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgot to edit the Footer" />
   </component>
 </project>
