@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
     function swapCSS() {
         const stylesheet = document.getElementById('stylesheet');
         if (isDefault) {
-            stylesheet.href = 'css/defb.css';
+            stylesheet.href = 'css/default.css';
             isDefault = false;
         } else {
-            stylesheet.href = 'css/default.css';
+            stylesheet.href = 'css/defb.css';
             isDefault = true;
         }
 
