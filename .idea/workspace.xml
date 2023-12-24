@@ -9,13 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/writings/downloads/AndersonDatorien_Resume1204.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
+    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/swapCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/swapCSS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writings/downloads/AndersonDatorien_Resume20232nd.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,11 +75,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703388148981</updated>
-      <workItem from="1703388151394" duration="10321000" />
+      <workItem from="1703388151394" duration="10476000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
+      <option name="closed" value="true" />
+      <created>1703410869160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703410869161</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
+      <option name="closed" value="true" />
+      <created>1703410889204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703410889204</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
+      <option name="closed" value="true" />
+      <created>1703410896002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703410896002</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png" />
   </component>
 </project>
