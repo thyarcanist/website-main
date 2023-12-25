@@ -177,7 +177,7 @@ a:active {
   100% { opacity: 1; }
 }
 
-.acknowledge {
+.acknowledge, #divine-question {
   cursor: pointer; /* Change cursor to indicate it's clickable */
   padding-left: 1em;
   color: #fafafa;
@@ -192,8 +192,8 @@ a:active {
   padding-bottom: .50em;
   position: fixed;
   bottom: 10px;
-  width: 700px; /* Adjust as needed */
-  height: 600px; /* Adjust as needed */
+  width: 2000px; /* Adjust as needed */
+  height: 700px; /* Adjust as needed */
   overflow: auto;
   z-index: 1000;
 }
@@ -294,6 +294,11 @@ button {
 #link-container {
   padding-left: 1em;
 }
+
+.hidden {
+  display: none;
+}
+
 
 
 /* Bottom-left terminal styles */
