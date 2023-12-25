@@ -192,7 +192,7 @@ a:active {
   padding-bottom: .50em;
   position: fixed;
   bottom: 10px;
-  width: 2000px; /* Adjust as needed */
+  width: 800px; /* Adjust as needed */
   height: 700px; /* Adjust as needed */
   overflow: auto;
   z-index: 1000;
