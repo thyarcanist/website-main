@@ -9,10 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Clear function created for terminal input&#10;Added terminal input&#10;added a new js for o">
+    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Tweaks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/o/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703388148981</updated>
       <workItem from="1703388151394" duration="10535000" />
-      <workItem from="1703449803281" duration="15906000" />
+      <workItem from="1703449803281" duration="16663000" />
     </task>
     <task id="LOCAL-00001" summary="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
       <option name="closed" value="true" />
@@ -177,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703544742818</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tweaks">
+      <option name="closed" value="true" />
+      <created>1703548562967</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703548562967</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +200,7 @@
     <MESSAGE value="removed" />
     <MESSAGE value="Removed the iframe that has the GPT-- this will be Ergodic &amp; PARG by Design... likely" />
     <MESSAGE value="Clear function created for terminal input&#10;Added terminal input&#10;added a new js for o" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clear function created for terminal input&#10;Added terminal input&#10;added a new js for o" />
+    <MESSAGE value="Tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tweaks" />
   </component>
 </project>
