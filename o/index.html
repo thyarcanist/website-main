@@ -16,14 +16,15 @@
 
 <div id="terminalBox" class="terminal-box" style="display: none;">
     <!-- Content for the terminal/command-line box -->
-    <iframe src="https://chat.openai.com/g/g-enSnFE02m-occybytegpt" width="100%" height="100%"></iframe>
 </div>
 
 <script>
     document.addEventListener('DOMContentLoaded', (event) => {
         document.querySelector('.acknowledge').addEventListener('click', function() {
             this.classList.remove('blink'); // Stop blinking
-            this.textContent = 'Explore.'; // Change text
+            this.textContent = 'Explore. ' +
+                'Enjoy. ' +
+                'Research.'; // Change text
             document.getElementById('terminalBox').style.display = 'block'; // Show terminal box
         });
     });
