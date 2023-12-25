@@ -9,22 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="fixed npm adit">
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.jscs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/implementation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/implementation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/vendor/win32-x64-93/binding.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/vendor/win32-x64-93/binding.node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/semver.js" afterDir="false" />
+    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Clear function created for terminal input&#10;Added terminal input&#10;added a new js for o">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/o/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +30,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -67,6 +60,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "staging",
+    "last_opened_file_path": "T:/Github/website-main/js/o",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +70,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="T:\Github\website-main\js\o" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="T:\Github\website-main\o" />
       <recent name="T:\Github\website-main\writings\downloads" />
@@ -90,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703388148981</updated>
       <workItem from="1703388151394" duration="10535000" />
-      <workItem from="1703449803281" duration="10615000" />
+      <workItem from="1703449803281" duration="15906000" />
     </task>
     <task id="LOCAL-00001" summary="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
       <option name="closed" value="true" />
@@ -156,7 +153,31 @@
       <option name="project" value="LOCAL" />
       <updated>1703534541122</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="removed">
+      <option name="closed" value="true" />
+      <created>1703536321647</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703536321647</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Removed the iframe that has the GPT-- this will be Ergodic &amp; PARG by Design... likely">
+      <option name="closed" value="true" />
+      <created>1703543130798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703543130798</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Clear function created for terminal input&#10;Added terminal input&#10;added a new js for o">
+      <option name="closed" value="true" />
+      <created>1703544742818</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703544742818</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +190,9 @@
     <MESSAGE value="Updated links and added Daydreams page" />
     <MESSAGE value="Removed old ampify" />
     <MESSAGE value="fixed npm adit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed npm adit" />
+    <MESSAGE value="removed" />
+    <MESSAGE value="Removed the iframe that has the GPT-- this will be Ergodic &amp; PARG by Design... likely" />
+    <MESSAGE value="Clear function created for terminal input&#10;Added terminal input&#10;added a new js for o" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clear function created for terminal input&#10;Added terminal input&#10;added a new js for o" />
   </component>
 </project>
