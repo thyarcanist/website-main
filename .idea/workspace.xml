@@ -9,50 +9,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Removed old ampify">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/code-frame/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/code-frame/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/code-frame/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/code-frame/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/code-frame/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/code-frame/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/identifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/identifier.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/identifier.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/identifier.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/keyword.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/keyword.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/keyword.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/keyword.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/scripts/generate-identifier-regex.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/scripts/generate-identifier-regex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/highlight/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/highlight/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/highlight/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/highlight/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/highlight/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/highlight/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/bin/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/bin/semver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/classes/comparator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/classes/comparator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/classes/range.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/classes/range.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/classes/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/classes/semver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/functions/coerce.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/functions/coerce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/functions/diff.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/functions/diff.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/functions/inc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/functions/inc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/functions/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/functions/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/internal/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/internal/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/internal/parse-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/internal/parse-options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/internal/re.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/internal/re.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/ranges/intersects.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/ranges/intersects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/ranges/subset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/ranges/subset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/build/index.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/build/index.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/build/lib/command.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/build/lib/command.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/build/lib/completion.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/build/lib/completion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/build/lib/usage.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/build/lib/usage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/build/lib/yargs-factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/build/lib/yargs-factory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/locales/cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/locales/cs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/locales/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/locales/fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/locales/fi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="fixed npm adit">
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.jscs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/implementation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/implementation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/vendor/win32-x64-93/binding.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/vendor/win32-x64-93/binding.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-pkg/node_modules/semver/semver.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +43,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="main" />
-      </list>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -125,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703388148981</updated>
       <workItem from="1703388151394" duration="10535000" />
-      <workItem from="1703449803281" duration="9939000" />
+      <workItem from="1703449803281" duration="10615000" />
     </task>
     <task id="LOCAL-00001" summary="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
       <option name="closed" value="true" />
@@ -183,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703533881142</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed npm adit">
+      <option name="closed" value="true" />
+      <created>1703534541122</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703534541122</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +168,7 @@
     <MESSAGE value="Added the Occybyte html page" />
     <MESSAGE value="Updated links and added Daydreams page" />
     <MESSAGE value="Removed old ampify" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed old ampify" />
+    <MESSAGE value="fixed npm adit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed npm adit" />
   </component>
 </project>
