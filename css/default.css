@@ -201,3 +201,36 @@ a:active {
 .terminal-box{
   padding-left: 1em;
 }
+
+/* MidJ  */
+
+.midj-body {
+  background-color: #222222; /* Background color of the body */
+  padding: 20px;
+}
+
+.midj-header h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fafafa;
+}
+
+.picture-box {
+  margin-bottom: 20px;
+  background-color: #777777;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+.picture-box img {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.caption {
+  color: #fafafa;
+  font-style: italic;
+  margin-top: 10px;
+}

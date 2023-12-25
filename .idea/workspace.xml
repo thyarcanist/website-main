@@ -9,11 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Forgot to edit the Footer">
-      <change afterPath="$PROJECT_DIR$/o/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o/occybyte.jpg" afterDir="false" />
+    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Added the Occybyte html page">
+      <change afterPath="$PROJECT_DIR$/midj/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703388148981</updated>
       <workItem from="1703388151394" duration="10535000" />
-      <workItem from="1703449803281" duration="2572000" />
+      <workItem from="1703449803281" duration="8676000" />
     </task>
     <task id="LOCAL-00001" summary="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
       <option name="closed" value="true" />
@@ -120,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703410951912</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added the Occybyte html page">
+      <option name="closed" value="true" />
+      <created>1703457441643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703457441643</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png" />
     <MESSAGE value="Forgot to edit the Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot to edit the Footer" />
+    <MESSAGE value="Added the Occybyte html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the Occybyte html page" />
   </component>
 </project>
