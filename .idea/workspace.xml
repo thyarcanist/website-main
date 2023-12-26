@@ -9,9 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment="Tweaks">
+    <list default="true" id="5caf7772-663d-41a8-b9f9-55903ad971cc" name="Changes" comment=".terminal-box width reduction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "staging",
-    "last_opened_file_path": "T:/Github/website-main/js/o",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;staging&quot;,
+    &quot;last_opened_file_path&quot;: &quot;T:/Github/website-main/js/o&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="T:\Github\website-main\js\o" />
@@ -86,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1703388148981</updated>
       <workItem from="1703388151394" duration="10535000" />
-      <workItem from="1703449803281" duration="16663000" />
+      <workItem from="1703449803281" duration="16899000" />
+      <workItem from="1703565438900" duration="833000" />
     </task>
     <task id="LOCAL-00001" summary="Changes to website&#10;Adding CommitMono font&#10;Adding olympic.png">
       <option name="closed" value="true" />
@@ -184,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703548562967</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary=".terminal-box width reduction">
+      <option name="closed" value="true" />
+      <created>1703548726585</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703548726585</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +210,7 @@
     <MESSAGE value="Removed the iframe that has the GPT-- this will be Ergodic &amp; PARG by Design... likely" />
     <MESSAGE value="Clear function created for terminal input&#10;Added terminal input&#10;added a new js for o" />
     <MESSAGE value="Tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tweaks" />
+    <MESSAGE value=".terminal-box width reduction" />
+    <option name="LAST_COMMIT_MESSAGE" value=".terminal-box width reduction" />
   </component>
 </project>
